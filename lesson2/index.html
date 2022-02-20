@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Интернет-магазин</title>
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+    <header>
+        <div class="logo">Интернет-магазин</div>
+        <button class="btn-cart" type="button">Корзина</button>
+    </header>
+    <main>
+        <div class="products"></div>
+    </main>
+    <div class="hamcontainer">
+        <div class="size">
+            <input type="radio" name="size" id="big">
+            <label for="big">Большой</label>
+            <input type="radio" name="size" id="small">
+            <label for="small">Маленький</label>
+        </div>
+        <br>
+        <div class="toppings">
+            <input type="checkbox" name="cheese" id="cheese">
+            <label for="cheese">Добавить сыр</label>
+            <input type="checkbox" name="salad" id="salad">
+            <label for="salad">Добавить салат</label>
+            <input type="checkbox" name="potato" id="potato">
+            <label for="potato">Добавить картошку</label>
+            <input type="checkbox" name="seasonings" id="seasonings">
+            <label for="seasonings">Добавить приправы</label>
+            <input type="checkbox" name="mayonnaise" id="mayonnaise">
+            <label for="mayonnaise">Добавить майонез</label>
+        </div>
+        <span id="total"></span>
+    </div>
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
